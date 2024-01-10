@@ -3,7 +3,7 @@ body{
 }
 .main-container{
     background-color: white;
-    margin: 50px 100px;
+    margin: 50px 200px;
 }
 .logo-container{
     text-align: center;
@@ -33,12 +33,23 @@ body{
     margin-left: 200px;
 }
 p{
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .text-division{
-    border: 5px solid black;
-    width: 500px;
+    width: 800px;
     display: flex;
-    justify-content: center;
+    flex-direction:row ; 
+    
+    margin: 0 auto;
+    
 }
+.stamp{
+    height: 150px;
+    display: flex;
+   
+    
+    
+    
+}
+
