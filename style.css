@@ -3,7 +3,8 @@ body{
 }
 .main-container{
     background-color: white;
-    margin: 50px 200px;
+    margin: 0 200px;
+    box-shadow: 0 0 10px 1px black;
 }
 .logo-container{
     text-align: center;
@@ -22,10 +23,11 @@ body{
 .address-text{
    text-align: right;
    padding: 5px 20px;
-   margin-top: -20px;
+   margin-top: -30px;
 }
 .text{
     text-align: center;
+    margin-top: -10px;
 }
 
 .receipt-no{
@@ -40,16 +42,55 @@ p{
     width: 800px;
     display: flex;
     flex-direction:row ; 
-    
+    justify-content: center;
     margin: 0 auto;
     
 }
 .stamp{
     height: 150px;
     display: flex;
-   
-    
-    
+    transform: rotate(-30deg);
+    margin-top: -30px;
     
 }
+.sign{
+    position: absolute;
+    margin-top: 60px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .text-division{
+        width: 400px;
+        display: flex;
+        flex-direction:row ; 
+        justify-content: center;
+        margin: -10px auto;
+        
+    }
+    .text{
+        margin-top: 5px!important
+    }
+    p{
+        font-size: 15px;
+    }
+    .div2{
+       margin-left: 50px!important
+    }
+    .stamp{
+        height: 90px;
+       margin: 1px;
+    }
+    .sign{
+        font-size: 10px;
+        margin-top: 60px;
+    }
+    hr{
+        margin: 1px!important
+    }
+    h4{
+        font-size: small;
+        padding: 0 10px;
+    }
+  }
 
