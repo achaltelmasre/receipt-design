@@ -4,7 +4,7 @@ body{
 .main-container{
     background-color: white;
     margin: 0 200px;
-    box-shadow: 0 0 10px 1px black;
+    box-shadow: 0 0 10px 5px black;
 }
 .logo-container{
     text-align: center;
@@ -40,11 +40,18 @@ p{
 
 .text-division{
     width: 800px;
-    display: flex;
+    /* display: flex;
     flex-direction:row ; 
-    justify-content: center;
+    justify-content: center; */
     margin: 0 auto;
     
+}
+input{
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-bottom: 1px dotted black;
+   
 }
 .stamp{
     height: 150px;
@@ -59,7 +66,15 @@ p{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+
+    .main-container{
+        background-color: white;
+        margin: 0 200px;
+        width: 500px;
+        box-shadow: 0 0 10px 5px black;
+    }
+    
     .text-division{
         width: 400px;
         display: flex;
@@ -74,6 +89,9 @@ p{
     p{
         font-size: 15px;
     }
+    .div1{
+        width: 300px;
+    }
     .div2{
        margin-left: 50px!important
     }
@@ -85,12 +103,11 @@ p{
         font-size: 10px;
         margin-top: 60px;
     }
-    hr{
-        margin: 1px!important
-    }
+    
     h4{
         font-size: small;
         padding: 0 10px;
     }
+
   }
 
