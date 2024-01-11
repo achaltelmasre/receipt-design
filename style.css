@@ -70,7 +70,7 @@ input{
 
     .main-container{
         background-color: white;
-        margin: 0 200px;
+        margin: 0 auto;
         width: 500px;
         box-shadow: 0 0 10px 5px black;
     }
